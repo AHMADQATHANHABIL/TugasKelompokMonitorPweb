@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ffffff;
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.lead {
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 30px;
+  position: relative;
+  bottom: 10px;
+  animation: fadeInDown 1.5s ease-out;
+}
+
+.nav-item {
+  margin-left: 0px;
+}
+
+.navbar {
+  background-color: #000000;
+}
+.navbar-brand {
+  width: 30%;
+}
+
+.hero {
+  background-image: url("images/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #000000;
+  text-align: center;
+  padding: 100px 0;
+  height: 100vh;
+}
+.contact {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.footer {
+  background-color: #00000000;
+  color: #000000;
+  padding: 20px 0;
+}
+
+.text-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.nav-item .nav-link {
+  text-align: center;
+  align-items: center;
+}
+
+.nav-login .login-btn {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: transparent;
+  margin-left: 300px;
+  margin-right: 20px;
+  padding: 6px 25px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-login .login-btn:hover {
+  background: #00fb21;
+}
+
+.logout-btn {
+  color: #ff0000;
+  position: absolute;
+  top: 3rem;
+  right: 20px;
+  background: transparent;
+  margin-left: 300px;
+  margin-right: 30px;
+  padding: 6px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-login .logout-btn:hover {
+  background: #ffffff;
+}
+
+.btn-primary {
+  animation: infinite;
+}
+
+.display-4 {
+  font-family: "Cute Font", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  position: relative;
+  top: 20px;
+  animation: fadeInDown 1.5s ease-out;
+}
+
+.nav-link:hover {
+  color: #d0ff00 !important;
+}
+
+.nav-item.active .nav-link {
+  color: #fffb01 !important;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.display-4 {
+  animation: fadeInDown 1.5s ease-out;
+}
+
+.lead {
+  animation: fadeInDown 1.5s ease-out;
+}
+
+.btn-primary {
+  animation: infinite 1.5s;
+}

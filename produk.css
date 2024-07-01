@@ -1,0 +1,88 @@
+body {
+  background-color: #00c9fb;
+  background-image: url("images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item .nav-link {
+  margin-right: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-login .login-btn {
+  color: #fff;
+  position: absolute;
+  top: 25px;
+  right: 60px; /* Move the button slightly to the left */
+  background: transparent;
+  margin-left: 300px;
+  margin-right: 20px;
+  padding: 6px 25px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-login .login-btn:hover {
+  color: green;
+  background-color: #ffffff85;
+}
+
+.btn-primary {
+  animation: infinite;
+}
+
+.navbar-nav {
+  position: center;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+.navbar-nav .nav-item a.nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+  color: #ff0000;
+}
+
+@media (max-width: 90px) {
+  .nav-login {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .nav-login .login-btn,
+  .nav-login .logout-btn {
+    width: 100%;
+    margin-top: 80px;
+  }
+}
